@@ -1,0 +1,44 @@
+
+.App_list h1{
+    color: coral;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.App_list .complete{
+    text-decoration: line-through;   
+    background: #353535; 
+    color: 
+}
+.App_list-item{
+    color: #272727;
+    margin-bottom: 20px;
+    background: coral;
+
+    padding: 20px;
+    list-style: none;
+    border-radius: 10px;
+}
+.App_list-item input{
+    margin-right: 15px;
+}
+.App_form{
+    display: flex;
+    justify-content: space-between;
+}
+.App_form input{
+    background: transparent;
+    padding: 20px;
+    width: 12vw;
+    height: 1vw; 
+    border-radius: 10px;
+    border: 2px solid coral;
+    color: coral;
+}
+.App_form-btn{
+    background: coral;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid coral;
+    color: #272727;
+}
